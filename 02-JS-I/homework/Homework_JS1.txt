@@ -1,0 +1,25 @@
+DFINICIONES
+
+Variables. Códigos que se utilizan para almacenar el valor del algo para que no sea necesario repetirlo varias veces,
+estas pueden ser de cualquier tipo y no es necesario definir dicho tipos desde el principio, para definirlas pueden usarse las palabras
+var, const o let, cada una con una utilización definida. La estructura de una variable es la siguiente: var, espacio, nombre de la variable, 
+igual y valor de la variable. Por ejemplo: var (num)=2
+
+Strings. Es un tipo de dato, son hilos de caracteres que pueden incluir letras o números, bloques de código que definen entre comillas (""), 
+se usa generalmente para incluir textos en las funciones(letras, mensajes, nombres). Por ejemplo: var nombre ="Sonia"
+
+Funciones (argumentos, return) Estas son usadas dentro un código para evitar escribir código de más.Es una cadena de instrucciones 
+que puede calcular un valor o realizar alguna actividad (es). Estas necesitan de una entrada de código y dan como resultado una salida
+(hacen algo o calculan algo). La estructura de la función es la palabra function, nombre de la función, entre parentesis una lista 
+de parámetros y finalmente entre llaves {} el código que se ejcutará (cuerpo de la función). 
+Las funciones tienen argumentos que son parámetros ue representan un valor y que el procedimiento que se está ejecutando espera que pase al 
+llamarlo, de igual manera una de las formas de definir la salidad de la función es través de comando return, este permite devolver un valor
+y salir de la secuencia. Ejemplo: function sumar(x, y) {return (x+y)}.  
+
+Declaraciones if. Esta estructura es principalmente para el interprete pueda tomar decisiones con base en una condición que se ha definido, así:
+si se cumple esta condición hará una cosa y si no se cumple hará otra. Existen condiciones lógicas que pueden tener como salidas "true" o "false",
+según corresponda. Ejemplo: If (edad>50) {"No sigue proceso"} else {"Sigue Proceso"}. Pueden utilizarse If anidados en caso de necesitar citar varias
+condiciones para que se ejecute un bloque de código. 
+
+Valores booleanos (true, false). Estos generan dos opciones (0,1) que se traducen en verdadero (true) o falso (False). Estos se usan en
+expresiones lógicas.  Ejemplo: function menosQueNoventa(num) {return num < 90;}
