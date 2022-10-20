@@ -1,0 +1,58 @@
+En un archivo de texto separado que debes crear, escribe explicaciones de los siguientes conceptos como si se 
+lo estuvieras explicando a un niño de 12 años. 
+Hacer esto te ayudará a descubrir rápidamente cualquier agujero en tu comprensión.
+
+EXPLICACIONES
+
+for 
+
+este bucle es necesario para que no tengamos que escribir mucho código o hacer líneas repetitivas 
+cuando lo quese quiere es repetir varias veces la misma acción hasta un punto determinado. La estructura del for
+es la siguiente: 
+
+for (//definición de la variable//; //expresión condicional//; //lo que se quiere hacer con la variable//) {//bloque de código//}
+
+Est bucle repetira la acción que requerimos tantas veces sea necesario y hasta que se deje de cumplir la condición 
+que hemos propuesto
+
+Ejemplo:  Imprime los números de 1 hasta 100
+
+for (var i=0; i<=100;i++) {console log i} 
+
+
+&&
+
+Es un operador lógico que significa "y" y se utiliza en condicionales anidados cuando requerimos que se cumplan 2 o más condiciones
+para ejecutar un código
+
+Ejemplo:Esta funcion revisa un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
+
+function tieneTresDigitos(numero){
+ if (numero >=100 && numero <=999) {
+  return true }
+   return false}
+
+en este caso requeriamos que se cumpliera que el número sea mayor o igual a 100 "Y" (&&) menos o igual a 999. 
+
+||
+
+Es un operador lógico que significa "o" y se utiliza en condicionales anidados cuando requerimos que se cumplan alguna de las 
+condiciones especificadas para  ejecutar un código
+
+Ejemplo:Esta fución Devuelve "true" si "numero" es 10 o 5. De lo contrario, devuelve "false"
+
+function esDiezOCinco(numero) {
+if ((numero==5) || (numero == 10)) {
+return (true)}
+  else {
+    return (false)}}
+
+en este caso requerimiamos que se cumpliera alguna de las dos condiciones ser =5 o (||) ser igual a 10
+
+!
+
+Este operador  significa NOT y devuelve el valor boleano opuesto a lo que pasa
+
+Ejemplo: 1false =true
+
+se usa combinado con == (!==) para decir no es igual denota desigualdad. 
