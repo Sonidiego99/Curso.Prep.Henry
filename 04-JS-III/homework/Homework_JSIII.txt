@@ -1,0 +1,35 @@
+JAVA III
+
+En un archivo de texto separado que debes crear, escribe explicaciones 
+de los siguientes conceptos como si se lo estuvieras explicando a un niño 
+de 12 años. Hacer esto te ayudará a descubrir rápidamente cualquier agujero 
+en tu comprensión.
+
+Arrays
+Son colecciones de datos:contendores de almacenamiento de cualquier tipo de dato 
+(strings, boleanos o números. Un Array se crea declarando una variable, el contenido del
+array se incluye dentro de []: 
+
+Var (numeros)= [10,20,30,40,50]
+
+Loa Arrays permiten acceder a cualquier de sus elementos ya que cada uno de ellos tiene 
+asignada una posicion empezando desde cero.
+
+Var (numeros)= [ 10 , 20 , 30 , 40 , 50]
+Posición ==>      0	1   2    3    4
+
+Recorrido o odificación de los arrays
+
+*Para saber el tamaño del arreglo o array usamos la función.length
+*Para agregar un elemento al final de la matriz .push
+*Para eliminar el último elemento de la matriz .pop
+*Para insertar un elemento en la posición cero (0) del arreglo . unshift
+*Para eliminar el primer elemento del arreglo . shift
+*Para ubicar un elemento del array se digita el ombre del array y entre corhetes la posició 
+ array [posición]
+
+
+
+
+
+
