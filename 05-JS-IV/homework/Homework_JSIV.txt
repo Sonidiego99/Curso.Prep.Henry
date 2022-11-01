@@ -1,0 +1,49 @@
+JSIV - Homework
+
+1. Objetos. Los objetos a diferecia de los arrays cotienen mucha información sobre una sola cosa, 
+mientras los arrays tienen indices [0,1,2,3...n]  usan los siguientes conceptos: 
+(1) claves (key): identificador,
+(2) valor: el valor que se quiere guardar en este clave
+Los objetos  pueden contenter muchos pares de clave:valor y se enuncian de la siguiente manera: 
+var NuevoObjeto: {clave1: valor1, clave2: valor2..} 
+Siempre deben ir entre corchetes {}, la clave y el valor se unen con dos puntos (:) y cada pareja debe 
+estar separada por una coma (,)
+Las claves son únicas en un objeto, no obstante, varias claves pueden tener el mismo valor. 
+Loa valores dentro de un objeto pueden ser de cualquier clase: cadena, boleano, fución, número,
+matriz u otro objeto
+Las claves pueden ser llamdas utilizando comillas [""]
+
+
+2. Propiedades
+Las propiedades son las que encontramos dentro de los objetos y podemos eliminarlas utilizando la palabra delete o 
+estableciendo el valor de la palabra clave en "undefined"
+
+
+3. Métodos
+Es lo mismo que una función y dentro de los objetos se pueden establecer coo valores, así cuando se almacena una 
+función dentro de un objeto, se llama "METODO" , algunos ejjemplos de métodos .length, .push, .pop. Para llamar un
+método lo hacemos así: 
+
+var NuevoObjeto = { 
+	decir Hola: function () {
+	  console.log("Hola a todos");
+}}
+
+Se usa: dos puntos (:=), la palabra reservada function y paréntesis ()
+
+	
+4. Bucle for in
+
+Se usa para objetos "for.. in loop. Recorre cada clave del objeto y finaliza cuando se hayan iterado todas 
+las claves, cuando requerimos afectar todos las parejas de clave y valor en u objeto con un parámetro,
+lo recorremos en el bucle for
+
+Notación de puntos vs notación de corchetes
+Los objetos se definen utilizando igual y corchtes, dentro de los corchetes las parejas de clave y valor se
+separan con coma. 
+
+Los objetos pueden ser llamados utilizando llaves [] o  utilizando . 
+
+Se usan comillas cuando se quiere llamar la clave especíica: NuevoObjeto["clave"]
+No se usan comillas cuando lo que se va a a llamar es una fución:NuevoObjeto[fuction]
+Se puede llamar el objeto y clave utilizando el punto (.). NuevoObjeto.clave 
