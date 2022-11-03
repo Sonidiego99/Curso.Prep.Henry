@@ -1,0 +1,15 @@
+JSV - Homework
+
+1. Prototype: El prototipo se define para  cada objeto y permite que estos hereden características entre si, 
+esto principalmente para no tener  que repetir código. el objeto prototipo es como una plantilla que permite tomar 
+métodos y propiedades de otros objetos, asi JS busca dentro de las propiedades del objeto y si no encuentra la 
+caraterística la busca dentro de su proto. Así es coomo podermos llamar a .pop, .length y .push, entre otros. 
+  
+
+2. Constructors:
+
+Permite crear un objeto a partir de un clase, se expresa asi; constructor() {}.   
+
+
+
+
